@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="no_ten_s_cuenta">Don\'t have an account?</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="crea_una_aqu">Create here</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="crear_cuenta">Join Us</string>
+    <string name="createaccount">Create Account</string>
+    <string name="hace"></string>
+    <string name="timecardtext">days ago</string>
+    <string name="likesNumber">likes</string>
+    <string name="menu_profile">Me</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="titleImagedetail">Muelle Solitario</string>
+    <string name="user_saved1">User</string>
+    <string name="user_saved2">saved!</string>
+    <string name="UserPassIncorrect">User and/or Password are incorrect.</string>
+</resources>

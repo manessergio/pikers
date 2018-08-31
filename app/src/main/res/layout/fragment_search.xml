@@ -1,0 +1,50 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prod.usuario.pikers.view.fragment.SearchFragment"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/searchbar_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/showUsersButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Mostrar Usuarios"
+                style="@style/RaisedButtonDark"
+                android:textColor="@color/colorPrimaryDark"/>
+            <Button
+                android:id="@+id/DeleteUsersButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eliminar Usuario"
+                style="@style/RaisedButtonDark"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/ListUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.BottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom|end"
+    design:menu="@xml/bottomnav_tabs"
+    android:background="@color/colorPrimaryDark"
+    app:itemIconTint="@drawable/tabs_colors_selector"
+    app:itemTextColor="@drawable/tabs_colors_selector"
+    app:ignore="NamespaceTypo">
+
+    <android.support.design.widget.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+</android.support.design.widget.BottomNavigationView>
